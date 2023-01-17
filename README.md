@@ -1,3 +1,3 @@
-# Ramona's Portfolio
+# John Doe's Portfolio
 
-Includes about, and PetCal portfolio.
+Includes about, and mobile app portfolio.
