@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ramona's Portfolio - PetCal</title>
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500;700&family=Open+Sans:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/hamburger-menu.css" />
+    <link rel="stylesheet" href="/css/app.css" />
+    <link rel="stylesheet" href="/css/img-carousel.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="master-container bg-green-orange">
+      <div class="content-n-footer-container">
+        <div class="content-container" id="about-container">
+          <div class="left-col">
+            <div class="sticky">
+              <!-- ************START OF MENU******************* -->
+
+              <nav class="nav-container mb-2">
+                <div id="mobile-menu">
+                  <div id="menu-bar" onclick="menuOnClick()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                  </div>
+
+                  <nav class="nav" id="nav">
+                    <ul>
+                      <li>
+                        <h3>
+                          <a class="hamburger-h3" href="/index.html"
+                            >About Me</a
+                          >
+                        </h3>
+                      </li>
+
+                      <li class="no-padding">
+                        <h3>
+                          <a class="hamburger-h3" href="/petcal.html"
+                            >Portfolio:</a
+                          >
+                        </h3>
+                      </li>
+                      <li>
+                        <h4>
+                          <a href="/petcal.html" class="hamburger-h4"
+                            >PetCal app</a
+                          >
+                        </h4>
+                      </li>
+                      <li>
+                        <a href="/petcal.html#how-it-works">How it works</a>
+                      </li>
+                      <li><a href="/petcal.html#snapshots">Snapshots</a></li>
+                      <li>
+                        <a href="/petcal.html#proof-of-concept">Video Demo</a>
+                      </li>
+                      <li><a href="/petcal.html#next-steps">Next steps</a></li>
+                    </ul>
+                  </nav>
+                </div>
+
+                <div class="menu-bg" id="menu-bg"></div>
+
+                <div class="menu-link-container bg-menu">
+                  <div class="ramona-top-left-container">
+                    <h4 id="ramona-top-left-text">
+                      <a href="/index.html">Ramona</a>
+                    </h4>
+                  </div>
+
+                  <ul>
+                    <li>
+                      <h3 id="about-h3">
+                        <a class="hamburger-h3" href="/index.html">About Me</a>
+                      </h3>
+                    </li>
+
+                    <li class="no-padding">
+                      <h3>
+                        <a class="hamburger-h3" href="/petcal.html"
+                          >Portfolio:</a
+                        >
+                      </h3>
+                    </li>
+                    <li>
+                      <h4 id="petcal-h4">
+                        <a href="/petcal.html" class="hamburger-h4"
+                          >PetCal app</a
+                        >
+                      </h4>
+                    </li>
+                    <li>
+                      <a href="/petcal.html#how-it-works">How it works</a>
+                    </li>
+                    <li><a href="/petcal.html#snapshots">Snapshots</a></li>
+                    <li>
+                      <a href="/petcal.html#proof-of-concept"
+                        >Video Demonstration</a
+                      >
+                    </li>
+                    <li><a href="/petcal.html#next-steps">Next steps</a></li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+
+          <!-- *****************************END OF MENU ***************************** -->
+
+          <div class="right-col">
+            <div class="top-right-row">
+              <div class="introduction-container">
+                <h1 class="major-h1 text-petcal-orange line-h-0 mt-5-w1000">
+                  PetCal App.
+                </h1>
+
+                <p class="intro-p">A helpful app when feeding my dogs.</p>
+              </div>
+            </div>
+
+            <div class="bottom-right-row-no-col">
+              <div
+                class="stroke-container stroke-orange mt-5-w1000 mb-auto-w1000"
+              >
+                <p class="p-start">
+                  I wanted to improve the nutrition of my own dogs by rotating
+                  different kibble brands and protein sources. Every brand or
+                  even model has different calorie counts and my boy needs to
+                  lose weight!
+                </p>
+                <p class="p-end">
+                  Every time we introduce a new food, we add it gradually so it
+                  took a lot of math every 2 days, using calculators,
+                  spreadsheets and Discord for sharing, which was very
+                  cumbersome...
+                </p>
+              </div>
+
+              <div
+                class="bg-orange container-filled mt-10-w1000"
+                id="how-it-works"
+              >
+                <h3 class="center-text mt-0">How it works</h3>
+
+                <p>
+                  I determined my dogs' energy requirements. There are tools
+                  online for that and the plan is to add it in the app too! I
+                  used the food calorie count and decided on the number of meals
+                  I wanted to feed per day.
+                </p>
+                <p>
+                  If I'm introducing a new food, I add the calories written on
+                  the package and percentage I want to use. The new food
+                  percentage is increased every 2 days.
+                </p>
+
+                <p class="p-end">
+                  The numbers displayed in the app represent amounts per meal.
+                  Also, the device doesn’t go to sleep while the numbers are in
+                  view, so I have plenty of time to measure and feed!
+                </p>
+              </div>
+
+              <div
+                class="stroke-container stroke-orange mt-negative12-w1000 mb-auto-w1000 center-text video-card"
+                id="snapshots"
+              >
+                <h3 class="mt-0">Snapshots</h3>
+
+                <div
+                  class="carousel"
+                  data-flickity='{ "autoPlay": true, "setGallerySize": false, "wrapAround": true}'
+                >
+                  <div class="carousel-cell">
+                    <img src="/images/petcal1.png" alt="" />
+                  </div>
+                  <div class="carousel-cell">
+                    <img src="/images/petcal2.png" alt="" />
+                  </div>
+                  <div class="carousel-cell">
+                    <img src="/images/petcal5.png" alt="" />
+                  </div>
+                  <div class="carousel-cell">
+                    <img src="/images/petcal6.png" alt="" />
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="bg-orange container-filled center-text video-card mt-22-w1000 mb-auto-w1000"
+                id="proof-of-concept"
+              >
+                <h3 class="mt-0">Video Demonstration</h3>
+                <div class="video-wrap center-text">
+                  <div class="video-container center-text">
+                    <iframe
+                      width="260"
+                      height="560"
+                      src="https://www.youtube.com/embed/tlBmGwMLIx8"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="stroke-container stroke-orange mt-negative17-w1000"
+                id="next-steps"
+              >
+                <h3 class="center-text mt-0">Next Steps</h3>
+                <ul class="decorated-ul p-end">
+                  <li>Add data persistence</li>
+                  <li>Implement add new foods</li>
+                  <li>Implement add and update pet information</li>
+                  <li>Implement upload pictures</li>
+                  <li>Add energy requirements calculator</li>
+                  <li>
+                    Implement option for displaying amounts per day or per meal
+                  </li>
+                  <li>Display option for imperial units</li>
+                  <li>Improve accessibility</li>
+                  <li>Implement registration and authentication for users</li>
+                  <li>Add guided tour for new users</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer class="footer-container">
+          <p class="footer-text">&copy; Ramona Stenström 2022</p>
+        </footer>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="/js/app.js"></script>
+  </body>
+</html>

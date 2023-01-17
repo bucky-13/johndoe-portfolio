@@ -1,0 +1,48 @@
+.carousel-cell,
+.main-carousel {
+  box-sizing: border-box;
+}
+
+.outer-container {
+  width: 50%;
+  border: solid orange 5px;
+  padding: 2rem;
+  border-radius: 50px;
+}
+
+.carousel {
+  background: rgba(0, 0, 0, 0);
+  aspect-ratio: 18/25;
+}
+
+.carousel-cell img {
+  display: block;
+  height: 100%;
+  border-radius: 20px;
+  border: 1px solid #888;
+}
+
+.carousel-cell {
+  width: 66%;
+  height: 100%;
+  margin-right: 10px;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* border-radius: 50px; */
+  counter-increment: gallery-cell;
+}
+
+.flickity-button {
+  display: none;
+}
+
+@media (min-width: 1030px) {
+  .flickity-button {
+    display: inline-block;
+  }
+}
+
+#snapshots {
+  padding-bottom: 4rem;
+}
