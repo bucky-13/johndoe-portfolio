@@ -1,12 +1,12 @@
 :root {
-  --main-color: #2e7d32;
-  --main-light-color: #58975b;
-  --menu-dark-color: #33420b;
-  --menu-medium-color: #506a11;
-  --menu-light-color: #9ec049;
-  --menu-extra-light-color: #dbe7bb;
-  --petcal-main-color: #ef6c00;
-  --petcal-bg-color: #b53d00;
+  --main-color: #125c6f;
+  --main-light-color: #1b8aa6;
+  --menu-dark-color: #381c01;
+  --menu-medium-color: #a85303;
+  --menu-light-color: #fa9d45;
+  --menu-extra-light-color: #fdc693;
+  --petcal-main-color: #a61a71;
+  --petcal-bg-color: #811458;
 }
 
 body {
